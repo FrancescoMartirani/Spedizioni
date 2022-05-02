@@ -28,7 +28,10 @@ namespace Spedizioni
         {
 
 
-            return x.Equals(this);
+            return x.mittente.Equals(this.mittente) &&
+                x.destinatario.Equals(this.destinatario) &&
+                x.valore.Equals(this.valore) &&
+                x.printingombro().Equals(this.printingombro());
 
         }
 
