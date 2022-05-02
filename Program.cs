@@ -18,7 +18,7 @@ corriere.aggiungiSpedizione(plico1);
 corriere.aggiungiSpedizione(plico2);
 corriere.aggiungiSpedizione(plico3);
 
-corriere.getLista();
+Console.WriteLine(corriere.getLista());
 Console.WriteLine(corriere.ingombroTotale());
 
 Console.WriteLine(pacco1.equals(pacco1));

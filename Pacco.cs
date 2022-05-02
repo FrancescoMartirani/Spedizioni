@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Spedizioni
+﻿namespace Spedizioni
 {
-    class Pacco : Spedizione
+    public class Pacco : Spedizione
     {
 
         public int altezza { get; set; }

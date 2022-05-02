@@ -36,15 +36,17 @@ namespace Spedizioni
 
         }
 
-        public void getLista()
+        public string getLista()
         {
-
+            var output = string.Empty;
             for (int i = 0; i < spedizioni.Count; i++)
             {
 
-                Console.WriteLine(spedizioni[i]);
+               output = string.Concat(output,spedizioni[i],Environment.NewLine);
 
             }
+
+            return output;
 
         }
 
